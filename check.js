@@ -18,6 +18,7 @@ if (/Opera|OPR/i.test(window.navigator.userAgent)) {
     browserName = "Unknown";
 }
 
+console.log(window.navigator.userAgent);
 // Check if the website is opening on a phone or computer
 var deviceType = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(window.navigator.userAgent) ? "Phone" : "Computer";
 
